@@ -1,0 +1,37 @@
+<suite name="Parallel BrowserStack Tests" parallel="tests" thread-count="5">
+    <test name="Windows Chrome">
+        <parameter name="os" value="Windows"/>
+        
+        <classes>
+            <class name="scrapping.Scrap"/>
+        </classes>
+    </test>
+
+    <test name="Windows Chrome2">
+        <parameter name="os" value="Windows"/>
+        <classes>
+            <class name="scrapping.Scrap"/>
+        </classes>
+    </test>
+    <test name="Android Chrome">
+        <parameter name="os" value="Android"/>
+        
+        <classes>
+            <class name="scrapping.Scrap"/>
+        </classes>
+    </test>
+    <test name="Android Chrome2">
+        <parameter name="os" value="Android"/>
+        
+        <classes>
+            <class name="scrapping.Scrap"/>
+        </classes>
+    </test>
+
+    <test name="Android Chrome3">
+        <parameter name="os" value="Android"/>
+        <classes>
+            <class name="scrapping.Scrap"/>
+        </classes>
+    </test>
+</suite>

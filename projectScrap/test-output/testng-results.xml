@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-21T20:20:03 IST" name="Parallel BrowserStack Tests" finished-at="2025-03-21T20:20:36 IST" duration-ms="32857">
+    <groups>
+    </groups>
+    <test started-at="2025-03-21T20:20:03 IST" name="Android Chrome2" finished-at="2025-03-21T20:20:34 IST" duration-ms="31137">
+      <class name="scraping.Scrap">
+        <test-method signature="scrapping(java.lang.String)[pri:0, instance:scraping.Scrap@2eae8e6e]" started-at="2025-03-21T20:20:03 IST" name="scrapping" finished-at="2025-03-21T20:20:34 IST" duration-ms="30957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrapping -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:scraping.Scrap@2eae8e6e]" started-at="2025-03-21T20:20:34 IST" name="quitDriver" finished-at="2025-03-21T20:20:34 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- scraping.Scrap -->
+    </test> <!-- Android Chrome2 -->
+    <test started-at="2025-03-21T20:20:03 IST" name="Android Chrome" finished-at="2025-03-21T20:20:34 IST" duration-ms="31137">
+      <class name="scraping.Scrap">
+        <test-method signature="scrapping(java.lang.String)[pri:0, instance:scraping.Scrap@78e4deb0]" started-at="2025-03-21T20:20:03 IST" name="scrapping" finished-at="2025-03-21T20:20:34 IST" duration-ms="30956" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrapping -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:scraping.Scrap@78e4deb0]" started-at="2025-03-21T20:20:34 IST" name="quitDriver" finished-at="2025-03-21T20:20:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- scraping.Scrap -->
+    </test> <!-- Android Chrome -->
+    <test started-at="2025-03-21T20:20:03 IST" name="Windows Chrome" finished-at="2025-03-21T20:20:35 IST" duration-ms="32029">
+      <class name="scraping.Scrap">
+        <test-method signature="scrapping(java.lang.String)[pri:0, instance:scraping.Scrap@49049a04]" started-at="2025-03-21T20:20:03 IST" name="scrapping" finished-at="2025-03-21T20:20:35 IST" duration-ms="31860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrapping -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:scraping.Scrap@49049a04]" started-at="2025-03-21T20:20:35 IST" name="quitDriver" finished-at="2025-03-21T20:20:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- scraping.Scrap -->
+    </test> <!-- Windows Chrome -->
+    <test started-at="2025-03-21T20:20:03 IST" name="Android Chrome3" finished-at="2025-03-21T20:20:36 IST" duration-ms="32852">
+      <class name="scraping.Scrap">
+        <test-method signature="scrapping(java.lang.String)[pri:0, instance:scraping.Scrap@69e153c5]" started-at="2025-03-21T20:20:03 IST" name="scrapping" finished-at="2025-03-21T20:20:36 IST" duration-ms="32686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrapping -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:scraping.Scrap@69e153c5]" started-at="2025-03-21T20:20:36 IST" name="quitDriver" finished-at="2025-03-21T20:20:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- scraping.Scrap -->
+    </test> <!-- Android Chrome3 -->
+    <test started-at="2025-03-21T20:20:03 IST" name="Windows Chrome2" finished-at="2025-03-21T20:20:36 IST" duration-ms="32857">
+      <class name="scraping.Scrap">
+        <test-method signature="scrapping(java.lang.String)[pri:0, instance:scraping.Scrap@449a4f23]" started-at="2025-03-21T20:20:03 IST" name="scrapping" finished-at="2025-03-21T20:20:36 IST" duration-ms="32687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrapping -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:scraping.Scrap@449a4f23]" started-at="2025-03-21T20:20:36 IST" name="quitDriver" finished-at="2025-03-21T20:20:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- scraping.Scrap -->
+    </test> <!-- Windows Chrome2 -->
+  </suite> <!-- Parallel BrowserStack Tests -->
+</testng-results>
